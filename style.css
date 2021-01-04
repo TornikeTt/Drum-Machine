@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    background-color: #8d8d8d;
+    font-family: 'Russo One', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#drum-machine{
+    width:660px;
+    height: 300px;
+    border:2px solid yellow;
+    background-color: #b3b3b3;
+}
+
+#display{
+    display:flex;
+}
+.dramButtons{
+    display:grid;
+    grid-template-columns: repeat(3 , 100px);
+    margin:20px 20px auto;
+    grid-gap:10px;
+}
+#display button {
+    width:100px;
+    height:80px;
+    background-color: grey;
+    border-radius:10px;
+    outline: none;
+    border: none;
+    cursor:pointer;
+    perspective: 100rem;
+}
+
+#display button:focus{
+    background-color:orange;
+}
+
+
+
